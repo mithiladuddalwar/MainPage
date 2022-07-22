@@ -1,0 +1,28 @@
+.heading
+{
+    text-align: center;
+    font-style: italic;
+}
+.createPage
+{ margin-left:35%;
+   height: 10cm;
+   width: 10cm;
+   border-style:groove;
+   border-color: black;
+   padding-top:2cm ;
+   padding-left:1.5cm;
+
+}
+.alert{
+    background-color: brown;
+}
+.postbutton ,.cnclbutton
+{
+   margin-left: 15%;
+  
+}
+.cancle
+{
+    text-decoration: none;
+    color: black;
+}

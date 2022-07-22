@@ -1,0 +1,10 @@
+<div class="showblog">
+<h1>My Blogs</h1>
+<hr>
+<hr>
+<br>
+ <div *ngFor="let blog of blogs" class="blogs">
+      <app-blog-item [blog]="blog" ></app-blog-item>
+ </div>
+</div>
+

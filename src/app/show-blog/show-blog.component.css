@@ -1,0 +1,16 @@
+h1{
+    font-style: italic;
+    font-weight:bolder;
+    text-align: center;
+}
+.showblog
+{   height:15cm;
+    width: 80;
+    border-style: double;
+    border-width: 2px;
+    overflow: auto;
+}
+.blogs
+{
+    margin-left: 2cm;
+}

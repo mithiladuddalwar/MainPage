@@ -1,0 +1,29 @@
+.home
+{
+    height:5cm;
+    width:7cm;
+    border-style: double;
+    border-width: 4px; 
+    padding:10px;
+    margin-bottom: 1cm;
+    overflow: hidden;
+}
+.tit
+{
+border-style: groove;
+border-color:aliceblue ;
+padding-left: 10px;
+overflow: hidden;
+}
+.des
+{ 
+   height:3cm;
+   overflow: auto;
+   padding-left: 2%;
+   border-style: groove;
+
+}
+.description
+{
+    margin-top:-20px;
+}

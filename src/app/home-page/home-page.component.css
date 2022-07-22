@@ -1,0 +1,14 @@
+.home
+{
+   height:40%;
+   width:20% ;
+   border-style:groove;
+   border-color:white;
+   margin-top:1cm;
+}
+.des
+{   
+    /* border-style:groove; */
+    /* border-color:whitesmoke; */
+    overflow: auto;
+}

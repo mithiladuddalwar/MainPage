@@ -1,0 +1,53 @@
+<h1 class="heading">Create Blogs</h1>
+<hr>
+<div class="createPage">
+<form >
+    <div class="form-control">
+        <label for="Title">Title* : </label>&nbsp;
+
+         <input type="text"
+          #name="ngModel" 
+          required minlength="1" 
+          maxlength="20" 
+         name="Title" 
+         class="form-control" 
+         [(ngModel)]="Title"
+         #title>
+  
+       <div *ngIf="name.invalid" class="alert">
+          <p *ngIf="name.errors?.['required']">Title is required</p>
+           <p *ngIf="name.errors?.['minlength']">fill the title properly</p>
+       </div>
+    </div>
+    <br>
+    <pre></pre>
+
+    <div class="form-control">
+    <label for="Description">Description* : </label><br>
+
+    <textarea #name1="ngModel" 
+    required minlength="150"
+    name="Description"
+    class="form-control"
+    rows="7" cols="34" 
+    [(ngModel)]="Description"
+    #description>
+    </textarea>
+
+    <div *ngIf="name1.invalid" class="alert">
+    <p *ngIf="name1.errors?.['required']">Description is required</p>
+    <p *ngIf="name1.errors?.['minlength']">not a proper discription length should be 150</p></div>
+    <br><label class="note">Note-(min length of description should be 150)</label>
+ </div>
+ <br>
+ <pre></pre>
+
+      <button><a class="cancle" href="createpage">cancle</a></button>
+
+    <button (click)="submit(title.value,description.value)" class="postbutton">Post</button>
+</form>
+
+</div>
+
+
+<!-- <router-outlet></router-outlet> -->

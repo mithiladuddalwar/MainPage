@@ -1,0 +1,45 @@
+ul
+{
+margin: 0;
+padding: 0;
+list-style: none;
+height:36px;
+background-color: black;
+font-family: 'Times New Roman', Times, serif;
+font-size:20px ;
+}
+li
+{
+    float:left;
+
+}
+a
+{   margin-right: 1cm;
+    margin-top: 5px;
+    padding: 0 20px;
+    text-decoration: none;
+    display:block;
+    border-width:1px;
+    border-color:blue;
+    border-style:outset;
+    background-color:white;
+    color:black;
+
+}
+a:hover,.active a
+{
+    background-color: cornflowerblue;
+}
+.blogs
+{
+    border-color: black;
+    border-width: 2px;
+    overflow: auto;
+    border-style: groove;
+}
+.blgText
+{
+    text-align:center;
+    font-style:oblique;
+    font-size: 1cm;
+}
